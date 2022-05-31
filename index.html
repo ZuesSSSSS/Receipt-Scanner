@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scanner</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+	<body>
+		<div class="container">
+			<div class="card">
+				<input style="text-align:center;" id="receiptUpload" type="file" alt="submit">
+				<p> Data Schema: (Detail [% of Confidence in Scan])</p>
+				<p id='loading'style="text-align:center; color: orange;"></p>
+			</div>
+			<div class="card">
+				<p>Result Data:</p>
+				<ul>
+					<li>Location: <a id="location"></a></li>
+					<li>Date: <a id="date"></a></li>
+					<li>Time: <a id="time"></a></li>
+					<li>Transaction #: <a id="transaction"></a></li>
+					<li>Pump Used: <a id="pump"></a></li>
+					<li>Product Type: <a id="productType"></a></li>
+					<li>Total Gallons: <a id="gallons"></a></li>
+					<li>Price-per-gallon: <a id="pricePerGallon"></a></li>
+					<li>Total: <a id="total"></a></li>
+					<li>Total Credited: <a id="totalCredit"></a></li>
+					<li>Vehicle ID: <a id="vehicleid"></a></li>
+					<li>Transaction Id:<a id="transId"></a></li>
+				</ul>
+			</div>
+		</div>
+		<script src="https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
