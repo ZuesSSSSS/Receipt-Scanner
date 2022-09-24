@@ -1,5 +1,4 @@
-# Receipt-Scanner---United-Security---Side-Project
-Receipt Scanner - United Security - Side Project
-
+# Receipt-Scanner
+### Side-Project
 
 Scans a chevron gas receipt and returns data 
